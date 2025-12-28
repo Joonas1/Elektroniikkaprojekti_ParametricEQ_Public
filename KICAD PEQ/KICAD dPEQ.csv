@@ -1,0 +1,19 @@
+Reference,Qty,,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+"C1,C2,C3,C4",4,2,C_Small,,,,,~
+"C5,C6,C19,C20,C21,C27",6,0.05,C,,,,,~
+"C7,C8,C9,C10,C11,C12,C13,C14,C15,C16,C17,C18,C23,C24,C25,C26",16,0.05,C,,,,Capacitor_SMD:C_0805_2012Metric,~
+IC1,1,6.5,LT3094EMSE#PBF,,,,components:SOP65P490X110-13N,https://www.analog.com/media/en/technical-documentation/data-sheets/LT3094.pdf
+IC2,1,6.5,LT3045EMSE#PBF,,,,components:SOP65P490X110-13N,http://cds.linear.com/docs/en/datasheet/3045f.pdf
+"J2,J3",2,,Conn_01x19_Socket,,,,,~
+"K1,K2,K3,K4,K5,K6,K9,K10",8,,FINDER-32.21-x300,,,,Relay_THT:Relay_SPST_Finder_32.21-x300,http://gfinder.findernet.com/assets/Series/355/S32EN.pdf
+"L1,L2,L3,L4",4,,L,,,,,~
+P1,1,,IEC_60320_C13_Plug,,,,,~
+"PS1,PS2",2,5.5,IRM-20-15,,,,Converter_ACDC:Converter_ACDC_MeanWell_IRM-20-xx_THT,http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF
+"R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R38,R39,R40,R41,R42,R43,R44,R45,R46,R47,R48,R49,R50,R51,R52,R55,R56,R57,R58,R59,R60,R63,R64,R65,R66,R67,R68,R69,R70,R78,R79,R80,R81,R87,R88,R89,R90,R91,R92,R93,R94,R95,R96,R97,R98,R99,R100,R101,R102",86,0.05,R,,,,Resistor_SMD:R_MiniMELF_MMA-0204,~
+"R53,R54,R61,R62,R71,R72,R73,R74,R75,R76,R77,R82,R83,R84,R85,R86,R103,R104,R105,R106,R107,R108,R109,R110,R111",25,0.02,4.7k,,,,,~
+"U1,U2,U3,U4,U5,U6,U7,U8,U9,U10,U11,U12,U17,U18,U19,U20,U21,U22,U23,U24,U32,U33,U35,U36",24,1,OPA1612AxD,,,,Package_SO:SOIC-8_5.3x6.2mm_P1.27mm,http://www.ti.com/lit/ds/symlink/opa1612.pdf
+"U17,U27",2,,TCA9548APWR,,,,Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm,http://www.ti.com/lit/ds/symlink/tca9548a.pdf
+U18,1,,ULN2803A,,,,,http://www.ti.com/lit/ds/symlink/uln2803a.pdf
+"VR1,VR2,VR3,VR4,VR5,VR6,VR7,VR8,VR9,VR10,VR11,VR12,VR13,VR14,VR15,VR16,VR17,VR18,VR25,VR29,VR31,VR33,VR34,VR35,VR37,VR41,VR43,VR45,VR46,VR47,VR49,VR50,VR71,VR72,VR75,VR76",36,,MCP41HV51-103E_ST,,,,components:SOP65P640X120-14N,https://componentsearchengine.com/Datasheets/2/MCP41HV51-103E_ST.pdf
+"VR19,VR20,VR21,VR22,VR23,VR24",6,,MCP45HV51-103E_ST,,,,components:SOP65P640X120-14N,https://componentsearchengine.com/Datasheets/2/MCP41HV51-103E_ST.pdf
+,225,,,,,,,

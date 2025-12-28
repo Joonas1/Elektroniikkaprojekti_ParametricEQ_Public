@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "IRM-20-24")(type "KiCad")(uri "${KIPRJMOD}/components/IRM-20-24.kicad_sym")(options "")(descr ""))
+  (lib (name "LT3045EMSE#PBF")(type "KiCad")(uri "${KIPRJMOD}/components/LT3045EMSE#PBF.kicad_sym")(options "")(descr ""))
+  (lib (name "LT3094EMSE#PBF")(type "Legacy")(uri "${KIPRJMOD}/components/LT3094EMSE#PBF.lib")(options "")(descr ""))
+  (lib (name "MCP41HV51-103E_ST")(type "KiCad")(uri "${KIPRJMOD}/components/MCP41HV51-103E_ST.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/components/New_Library.kicad_sym")(options "")(descr ""))
+)

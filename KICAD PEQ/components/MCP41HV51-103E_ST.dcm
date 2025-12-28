@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP41HV51-103E_ST
+D MCP41HV51-103E/ST, Digital Potentiometer 10k 256-Position Serial-SPI 14-Pin TSSOP
+K
+F https://componentsearchengine.com/Datasheets/2/MCP41HV51-103E_ST.pdf
+$ENDCMP
+#
+#End Doc Library

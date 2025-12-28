@@ -1,0 +1,1194 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "55e2a342-beba-4617-867f-b1714faef12d")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 81.28 62.23) (xy 81.28 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d8f530f-0e42-45f9-9892-01ea19efb48b")
+	)
+	(wire
+		(pts
+			(xy 36.83 72.39) (xy 71.12 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13729522-86ab-4d7b-9944-61768ab5e1c1")
+	)
+	(wire
+		(pts
+			(xy 87.63 20.32) (xy 96.52 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16630381-9ae7-4b44-b34b-8ccccd0fbae5")
+	)
+	(wire
+		(pts
+			(xy 91.44 105.41) (xy 91.44 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d8806da-9cae-4339-8c16-7525c1b65a54")
+	)
+	(wire
+		(pts
+			(xy 86.36 62.23) (xy 86.36 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "399b7d09-d361-43d0-a273-e7f8b187ec6d")
+	)
+	(wire
+		(pts
+			(xy 76.2 62.23) (xy 76.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4313e957-a63f-409a-a022-3622dd86ee5c")
+	)
+	(wire
+		(pts
+			(xy 146.05 59.69) (xy 146.05 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443719f9-9305-4cbd-9956-efc40b9856ce")
+	)
+	(wire
+		(pts
+			(xy 24.13 58.42) (xy 24.13 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eead183-87f4-45eb-ac04-6c675d3e34ce")
+	)
+	(wire
+		(pts
+			(xy 76.2 104.14) (xy 76.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6590d0-2ae6-469a-bbbb-2f343c32c514")
+	)
+	(wire
+		(pts
+			(xy 98.044 72.39) (xy 138.43 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "531f65f6-70bd-4ec7-bac2-419ea1bf8645")
+	)
+	(wire
+		(pts
+			(xy 97.79 113.03) (xy 138.43 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b3f3f8a-25ae-4064-8d67-ae0430328e1c")
+	)
+	(wire
+		(pts
+			(xy 36.83 113.03) (xy 71.12 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7280ee0a-adbc-4c20-aa8e-2c70e75bd233")
+	)
+	(wire
+		(pts
+			(xy 87.63 22.86) (xy 96.52 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "728c8ac3-e756-4c16-9b36-1de5a862abcd")
+	)
+	(wire
+		(pts
+			(xy 83.82 62.23) (xy 83.82 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79379628-a75a-4680-9de6-77ce0c76178c")
+	)
+	(wire
+		(pts
+			(xy 88.9 105.41) (xy 88.9 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fc49763-0875-4a80-81b7-e4ee4c25b4a2")
+	)
+	(wire
+		(pts
+			(xy 91.44 62.23) (xy 91.44 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88043f04-d6e6-49dc-97e2-66f16cc89a8b")
+	)
+	(wire
+		(pts
+			(xy 78.74 104.14) (xy 78.74 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9562ffb2-2721-4343-9e26-e0077ab057b9")
+	)
+	(wire
+		(pts
+			(xy 88.9 62.23) (xy 88.9 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b422f43d-72ec-404b-a673-f302f38dd645")
+	)
+	(wire
+		(pts
+			(xy 87.63 25.4) (xy 96.52 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5340dc0-12d7-491d-8c75-faa499b0dd99")
+	)
+	(wire
+		(pts
+			(xy 26.67 58.42) (xy 26.67 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b22c10-ee29-4e5d-b371-5b7ac15f829f")
+	)
+	(wire
+		(pts
+			(xy 83.82 104.14) (xy 83.82 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d159ee63-aac6-45cd-bc65-ffae71758e5a")
+	)
+	(wire
+		(pts
+			(xy 86.36 105.41) (xy 86.36 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2c43698-ca06-4d05-b7da-16253c4e6071")
+	)
+	(wire
+		(pts
+			(xy 81.28 104.14) (xy 81.28 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58dd2ef-7161-4bd6-a1b1-a12714db6db5")
+	)
+	(wire
+		(pts
+			(xy 143.51 59.69) (xy 143.51 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8ff2950-0b02-40cb-952a-ed0f01ac4361")
+	)
+	(wire
+		(pts
+			(xy 78.74 62.23) (xy 78.74 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e989bb5a-3fb0-485c-9ee9-eb80ef50979f")
+	)
+	(label "SDA_3"
+		(at 78.74 104.14 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23f3dac9-e7dd-4ee9-b066-a37d0506f999")
+	)
+	(label "SDA_2"
+		(at 83.82 62.23 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39b38b58-a4f5-47be-9dd2-535bcfe8cd85")
+	)
+	(label "SCL_1"
+		(at 76.2 62.23 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "431e2eee-cce7-42d2-af3e-23447b84fe97")
+	)
+	(label "+15V"
+		(at 88.9 105.41 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4770f440-7cf1-48ef-93de-b35acbbecddb")
+	)
+	(label "SCL_3"
+		(at 76.2 104.14 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c40f844-6f69-42dc-ac45-70e9b4f0a2af")
+	)
+	(label "+15V"
+		(at 24.13 58.42 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59c29d70-bae0-4c48-9985-447b50fc189f")
+	)
+	(label "SDA_1"
+		(at 78.74 62.23 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70dbc9ad-6e40-4531-b090-071b1fdcb517")
+	)
+	(label "+3V3"
+		(at 96.52 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "828b79ce-fc16-4ba2-a920-09f869bc11b4")
+	)
+	(label "+15V"
+		(at 96.52 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89092ff1-f104-420d-b094-6f8da590a187")
+	)
+	(label "SDA_4"
+		(at 83.82 104.14 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f342ed5-d36e-41e1-a99f-eabfbd5b9bfc")
+	)
+	(label "+3V3"
+		(at 86.36 62.23 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "910d7fae-2ca0-4f17-8637-87a3c92bb694")
+	)
+	(label "SCL_4"
+		(at 81.28 104.14 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94110667-4276-47aa-926f-c43dbde44c82")
+	)
+	(label "SCL_2"
+		(at 81.28 62.23 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9573b159-21c1-4109-ac6d-310bdf7e1c24")
+	)
+	(label "-15V"
+		(at 91.44 105.41 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b316946-430b-4910-9b66-c59f6da826cb")
+	)
+	(label "-15V"
+		(at 96.52 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3c32194-3315-4e19-bb23-314f7feef2fc")
+	)
+	(label "-15V"
+		(at 146.05 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8499ab3-744e-435f-aaba-587885fecd91")
+	)
+	(label "-15V"
+		(at 26.67 58.42 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7545973-55b5-4fb5-a727-e2e66184af85")
+	)
+	(label "-15V"
+		(at 91.44 62.23 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "efc7dccc-cfc2-4830-87bf-1a5e4791982b")
+	)
+	(label "+15V"
+		(at 143.51 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "efd771a4-c8b3-4fd2-84e7-8e636660aae5")
+	)
+	(label "+3V3"
+		(at 86.36 105.41 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3d906c9-4e0e-4e90-96bf-adc269769672")
+	)
+	(label "+15V"
+		(at 88.9 62.23 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f86819f5-81fc-4686-b622-48d44590458c")
+	)
+	(sheet
+		(at 204.47 48.26)
+		(size 34.29 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1cf932aa-6414-433f-aba4-610aa273cea5")
+		(property "Sheetname" "esp32"
+			(at 204.47 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32.kicad_sch"
+			(at 204.47 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 204.47 64.77 180)
+			(uuid "bdebe2e3-209d-4a35-8f23-77b4d43e2050")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_0" output
+			(at 204.47 60.96 180)
+			(uuid "6735253f-9a2e-4212-b566-451e43882e95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_1" output
+			(at 204.47 55.88 180)
+			(uuid "4e81c8f8-54f1-407d-935b-092a565baf43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_2" output
+			(at 238.76 60.96 0)
+			(uuid "471eebeb-63d6-4f72-876a-2bcffbfbe812")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL_3" output
+			(at 238.76 55.88 0)
+			(uuid "53f73447-ac67-4969-bb9f-ac53279d8803")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA_0" output
+			(at 204.47 58.42 180)
+			(uuid "0787a6b1-530f-4b90-a70b-5149c11b8303")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_1" output
+			(at 204.47 53.34 180)
+			(uuid "188a3316-bc16-4928-a22b-8c2cc3215a34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_2" output
+			(at 238.76 58.42 0)
+			(uuid "6660591e-8975-4d68-8d34-4ce9bbf6ceee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA_3" output
+			(at 238.76 53.34 0)
+			(uuid "07581808-5f1e-4fdb-bbd9-834ea46513ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC" input
+			(at 238.76 64.77 0)
+			(uuid "e9df9fd4-4ab4-4f78-ab78-111847b3279d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 67.31)
+		(size 26.924 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "21ffa2c7-8d37-4902-94d7-d56b0a14bd1f")
+		(property "Sheetname" "PEAK EQ R"
+			(at 58.674 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peaks.kicad_sch"
+			(at 71.12 78.5626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+15V" passive
+			(at 88.9 67.31 90)
+			(uuid "b0d62679-2166-4d97-a9b0-dbbc7de59cf4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-15V" passive
+			(at 91.44 67.31 90)
+			(uuid "0dcd52d8-fde7-4e46-93b0-fcaf09494a5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN" output
+			(at 71.12 72.39 180)
+			(uuid "92f1f7a0-9b96-4b45-874a-07fe94b6b193")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 98.044 72.39 0)
+			(uuid "de8cd49c-87a3-4a12-96e9-e1242e29faab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "lowshelf relay control" output
+			(at 98.044 91.44 0)
+			(uuid "67699a23-ab46-4fbc-923d-9fe6c7a1ac0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "peak_1 relay control" output
+			(at 98.044 83.82 0)
+			(uuid "db981107-7d4b-475d-9584-b9c1081f64b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "peak_2 relay control" output
+			(at 98.044 86.36 0)
+			(uuid "5c692da8-1ca2-4c69-b25c-a5ff66003234")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "peak_3 relay control" output
+			(at 98.044 88.9 0)
+			(uuid "f0657081-9a01-42c9-9ad6-7295b6ccadfa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3V3" input
+			(at 86.36 67.31 90)
+			(uuid "40603f8e-238e-40ba-93cc-f98a7e82f74a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL_1" input
+			(at 76.2 67.31 90)
+			(uuid "338b225d-d782-4da0-8d21-e43e4a54ddc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL_2" input
+			(at 81.28 67.31 90)
+			(uuid "2d341db9-aae9-49c8-b7b2-b107ac70c7ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA_1" input
+			(at 78.74 67.31 90)
+			(uuid "78405b44-de09-48f3-abe6-929ef1a9a4ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA_2" input
+			(at 83.82 67.31 90)
+			(uuid "92923bb4-71ae-4265-b6cb-04e87b394eb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 64.77)
+		(size 24.13 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "41ece10b-87fb-4e4d-952f-8208005e5e12")
+		(property "Sheetname" "output"
+			(at 138.43 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "output.kicad_sch"
+			(at 138.43 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "L" output
+			(at 138.43 113.03 180)
+			(uuid "636d1702-0601-4d87-b1ab-28842fa6cb3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R" output
+			(at 138.43 72.39 180)
+			(uuid "b3703b46-4245-4c40-b474-c3cbedaf37bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+15V" input
+			(at 143.51 64.77 90)
+			(uuid "63426722-bfb7-4214-8da0-accd6b47381c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-15V" input
+			(at 146.05 64.77 90)
+			(uuid "c0438750-438f-4ffc-9be6-138952640144")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d"
+					(page "28")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 107.95)
+		(size 26.67 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b4bccff9-841d-45c7-bd46-feb380160ab1")
+		(property "Sheetname" "PEAK EQ L"
+			(at 59.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peaks.kicad_sch"
+			(at 71.12 120.2186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+15V" passive
+			(at 88.9 107.95 90)
+			(uuid "004ab15e-50ee-4c1e-8858-1f592931cb2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-15V" passive
+			(at 91.44 107.95 90)
+			(uuid "1b1f3734-8bc5-4a89-b566-a33596bf4f9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN" output
+			(at 71.12 113.03 180)
+			(uuid "606d82e9-8fc7-4149-a08e-d2da0fe078dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 97.79 113.03 0)
+			(uuid "218b5edf-f97c-4d71-8605-67b141c72b84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "lowshelf relay control" output
+			(at 97.79 132.08 0)
+			(uuid "71ce7971-5d6b-4dbb-bbd4-7dc1fa29374e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "peak_1 relay control" output
+			(at 97.79 124.46 0)
+			(uuid "8549b45c-26aa-47de-a6f9-37939ce1981b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "peak_2 relay control" output
+			(at 97.79 127 0)
+			(uuid "ce8fe37e-e396-4a01-a65a-a9910c9b2038")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "peak_3 relay control" output
+			(at 97.79 129.54 0)
+			(uuid "75866598-fbf0-454e-aa4b-62076b3e4be0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3V3" input
+			(at 86.36 107.95 90)
+			(uuid "c4e179c8-2950-42e1-9a62-c2d582922156")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL_1" input
+			(at 76.2 107.95 90)
+			(uuid "3994bade-6481-42bf-bafa-d3d6c93c0d87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL_2" input
+			(at 81.28 107.95 90)
+			(uuid "b4e40628-c6ba-458b-95c0-4fe1b7c8df74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA_1" input
+			(at 78.74 107.95 90)
+			(uuid "6df59339-c7d7-4bf1-a59e-4cf349c90408")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA_2" input
+			(at 83.82 107.95 90)
+			(uuid "5ee8c9c8-d150-46bf-9594-b3674ed56829")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 17.78)
+		(size 31.75 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d57d3523-26b2-4c9a-869b-7cc176472484")
+		(property "Sheetname" "power"
+			(at 55.88 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 55.88 34.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+15V" passive
+			(at 87.63 20.32 0)
+			(uuid "5858d246-7e19-45d6-8a0a-903aadf7428e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-15V" passive
+			(at 87.63 22.86 0)
+			(uuid "404f12c6-7995-4db4-9ccf-f2b291d237ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3V3" input
+			(at 87.63 25.4 0)
+			(uuid "50588fee-0ad8-472c-990f-1f5bec78a84c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 63.5)
+		(size 22.86 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e9dd11b9-e8a7-40f8-a827-11d972551552")
+		(property "Sheetname" "input"
+			(at 13.97 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "input.kicad_sch"
+			(at 13.97 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "L" output
+			(at 36.83 113.03 0)
+			(uuid "08f6a7e2-708b-46e2-9a31-438f634c39cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "R" output
+			(at 36.83 72.39 0)
+			(uuid "4fb2c3eb-f616-4b85-89a6-b1bb62b9c264")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+15V" input
+			(at 24.13 63.5 90)
+			(uuid "4241ba38-e209-4f07-b0f9-29e20f115ce6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-15V" input
+			(at 26.67 63.5 90)
+			(uuid "f3ed6ba4-789c-4af1-b7c8-69724796fa89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

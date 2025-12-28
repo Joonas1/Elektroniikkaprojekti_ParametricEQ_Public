@@ -1,0 +1,17 @@
+{
+  "state": {
+    "gain": 0,
+    "power": true,
+    "bands": [
+      { "type": "lowcut",    "freq": 20,    "gain": 0, "Q": 0.7, "enabled": false },
+      { "type": "lowshelf",  "freq": 40,    "gain": 0, "Q": 0.7, "enabled": false },
+      { "type": "bell",      "freq": 150,   "gain": 0, "Q": 1,   "enabled": false },
+      { "type": "bell",      "freq": 500,   "gain": 0, "Q": 1,   "enabled": false },
+      { "type": "bell",      "freq": 4000,  "gain": 0, "Q": 1,   "enabled": false },
+      { "type": "highshelf", "freq": 8000,  "gain": 0, "Q": 0.7, "enabled": false },
+      { "type": "highcut",   "freq": 20000, "gain": 0, "Q": 0.7, "enabled": false }
+    ],
+    "filename": "unnamed",
+    "version": 1
+  }
+}

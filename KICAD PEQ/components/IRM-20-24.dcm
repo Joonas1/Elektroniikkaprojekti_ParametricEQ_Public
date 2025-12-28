@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IRM-20-24
+D Power Supply Encapsulated PCB 24V 21W
+K
+F https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/IRM-20/IRM-20-spec.pdf
+$ENDCMP
+#
+#End Doc Library

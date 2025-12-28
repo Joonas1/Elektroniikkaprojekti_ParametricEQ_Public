@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT3094EMSE#PBF
+D LDO Voltage Regulators -20V, 500mA Ultralow Noise/PSRR LDO
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT3094.pdf
+$ENDCMP
+#
+#End Doc Library

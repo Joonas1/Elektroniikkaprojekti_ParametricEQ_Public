@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT3045EMSE#PBF
+D 12-LEAD PLASTIC MSOP
+K
+F http://cds.linear.com/docs/en/datasheet/3045f.pdf
+$ENDCMP
+#
+#End Doc Library

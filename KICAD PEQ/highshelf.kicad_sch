@@ -1,0 +1,4383 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b409ff18-4e2d-4308-b82a-d99b79d94326")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Amplifier_Operational:OPA1612AxD"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "OPA1612AxD"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OPA1612AxD_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA1612AxD_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA1612AxD_3_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Potentiometer_Digital:MCP4461-xxxx-ST"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -8.89 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MCP4461-xxxx-ST"
+				(at 10.16 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+				(at 3.4798 -4.9276 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/22267A_MCP4431.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad 8 Bit Digital Potentiometer, I²C, Nonvolatile Memory, TSSOP-20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Digital Pot Potentiometer DigiPot"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSSOP*4.4x6.5mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP4461-xxxx-ST_1_1"
+				(polyline
+					(pts
+						(xy 1.7272 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.7272 -0.508) (xy 1.7272 0.508) (xy 2.7432 0) (xy 1.7272 -0.508) (xy 1.7272 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 2.54) (xy 3.302 2.286) (xy 3.302 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 2.286) (xy 3.302 1.4478)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -2.3114) (xy 3.302 -1.3716)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -2.54) (xy 3.302 -2.286) (xy 3.302 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.7846 -1.3462)
+					(end 2.7686 1.4478)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -4.445)
+					(end -5.08 4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "P0B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "P0W"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "P0A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP4461-xxxx-ST_2_1"
+				(polyline
+					(pts
+						(xy 1.7272 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.7272 -0.508) (xy 1.7272 0.508) (xy 2.7432 0) (xy 1.7272 -0.508) (xy 1.7272 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 2.54) (xy 3.302 2.286) (xy 3.302 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 2.286) (xy 3.302 1.4478)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -2.3114) (xy 3.302 -1.3716)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -2.54) (xy 3.302 -2.286) (xy 3.302 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.7846 -1.3462)
+					(end 2.7686 1.4478)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -4.445)
+					(end -5.08 4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "P1B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "P1W"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "P1A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP4461-xxxx-ST_3_1"
+				(polyline
+					(pts
+						(xy 1.7272 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.7272 -0.508) (xy 1.7272 0.508) (xy 2.7432 0) (xy 1.7272 -0.508) (xy 1.7272 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 2.54) (xy 3.302 2.286) (xy 3.302 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 2.286) (xy 3.302 1.4478)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -2.3114) (xy 3.302 -1.3716)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -2.54) (xy 3.302 -2.286) (xy 3.302 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.7846 -1.3462)
+					(end 2.7686 1.4478)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -4.445)
+					(end -5.08 4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "P2B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "P2W"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "P2A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP4461-xxxx-ST_4_1"
+				(polyline
+					(pts
+						(xy 1.7272 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.7272 -0.508) (xy 1.7272 0.508) (xy 2.7432 0) (xy 1.7272 -0.508) (xy 1.7272 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 2.54) (xy 3.302 2.286) (xy 3.302 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 2.286) (xy 3.302 1.4478)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -2.3114) (xy 3.302 -1.3716)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -2.54) (xy 3.302 -2.286) (xy 3.302 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.7846 -1.3462)
+					(end 2.7686 1.4478)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -4.445)
+					(end -5.08 4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "P3B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "P3W"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "P3A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP4461-xxxx-ST_5_1"
+				(rectangle
+					(start -10.16 10.16)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "HVC/A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 173.99 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "066c5264-73a0-46b8-be83-1736b3201096")
+	)
+	(junction
+		(at 156.21 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d1ee180-2c29-4fe4-9c92-265790575ce7")
+	)
+	(junction
+		(at 116.84 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f8e455f-2a45-4c5e-a540-f047770b3586")
+	)
+	(junction
+		(at 228.6 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f2fde93-ec5d-4e48-bea3-9c512ff19585")
+	)
+	(junction
+		(at 96.52 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23f7f851-c312-49b8-b686-a258e23858ed")
+	)
+	(junction
+		(at 113.03 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b25e434-8080-4a29-ad68-dcb618b206c1")
+	)
+	(junction
+		(at 113.03 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61aa3331-c58b-4b55-87c3-2800174b4daa")
+	)
+	(junction
+		(at 246.38 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82688e20-37cd-49ae-99ef-8d8e524421c6")
+	)
+	(junction
+		(at 88.9 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b803a7fa-16e4-4bab-b6fd-7c2b2aaf76af")
+	)
+	(junction
+		(at 116.84 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2c69871-ebba-4d9b-8973-9261357842e3")
+	)
+	(junction
+		(at 93.98 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7f0c96d-b5cf-422e-98df-cf84e60641e2")
+	)
+	(wire
+		(pts
+			(xy 190.5 80.01) (xy 228.6 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00212df5-ebf0-4823-a016-691f554d0c50")
+	)
+	(wire
+		(pts
+			(xy 132.08 76.2) (xy 156.21 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "002b8df1-fc6e-420b-be08-edc5cabd84df")
+	)
+	(wire
+		(pts
+			(xy 96.52 63.5) (xy 96.52 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06008968-4ea0-406d-b2e8-a6cac072c97b")
+	)
+	(wire
+		(pts
+			(xy 113.03 93.98) (xy 113.03 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "083f9ea7-bed3-4404-85b8-9aa1abc88324")
+	)
+	(wire
+		(pts
+			(xy 76.2 72.39) (xy 88.9 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1adf513c-6f51-4c40-b436-b3936794b553")
+	)
+	(wire
+		(pts
+			(xy 105.41 93.98) (xy 113.03 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e585b59-d8b9-442b-afe3-e8f7ca27ed33")
+	)
+	(wire
+		(pts
+			(xy 173.99 78.74) (xy 175.26 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f8ec11c-12db-4523-b6c6-1f9a0850a7dc")
+	)
+	(wire
+		(pts
+			(xy 128.27 102.87) (xy 128.27 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2319272f-3506-425a-afef-65f014b0c451")
+	)
+	(wire
+		(pts
+			(xy 100.33 63.5) (xy 96.52 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2782fee7-6fc2-40a8-86a1-a0b734853f06")
+	)
+	(wire
+		(pts
+			(xy 113.03 63.5) (xy 107.95 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc9b7f1-877d-4e6a-a94c-895ab59a94d7")
+	)
+	(wire
+		(pts
+			(xy 190.5 78.74) (xy 190.5 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331f7828-fa5e-4c1e-bde0-d0d9b905d4da")
+	)
+	(wire
+		(pts
+			(xy 113.03 104.14) (xy 109.22 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "333fb211-b414-4692-8198-11dff44492da")
+	)
+	(wire
+		(pts
+			(xy 97.79 72.39) (xy 96.52 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3755450b-7fff-473a-a843-304a20ad956d")
+	)
+	(wire
+		(pts
+			(xy 172.72 78.74) (xy 173.99 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f2ad77-1af7-4d7a-b402-1841e9ba7b50")
+	)
+	(wire
+		(pts
+			(xy 113.03 74.93) (xy 115.57 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f21dfd7-d120-4909-a9d4-ae00c661d13e")
+	)
+	(wire
+		(pts
+			(xy 93.98 106.68) (xy 93.98 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e1296a-7607-4f28-bc93-204afa54dac4")
+	)
+	(wire
+		(pts
+			(xy 88.9 49.53) (xy 88.9 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46340840-10ed-4499-b39c-6e03b4f94944")
+	)
+	(wire
+		(pts
+			(xy 123.19 74.93) (xy 129.54 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "484d409f-0971-4e25-9eaa-c6044a0bf3e0")
+	)
+	(wire
+		(pts
+			(xy 246.38 82.55) (xy 259.08 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b771084-de1c-4c34-95de-574e90836b18")
+	)
+	(wire
+		(pts
+			(xy 156.21 63.5) (xy 156.21 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c00576e-8b89-49fe-b3cb-71bbbfe640a4")
+	)
+	(wire
+		(pts
+			(xy 156.21 76.2) (xy 157.48 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5493b2a2-8687-42fd-91ed-9c4614e8162e")
+	)
+	(wire
+		(pts
+			(xy 77.47 20.32) (xy 116.84 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "645c17e8-aedd-43d2-a70f-323c0773de8e")
+	)
+	(wire
+		(pts
+			(xy 125.73 102.87) (xy 125.73 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "698cb8cc-37f9-4c56-9e10-49ec62dd360c")
+	)
+	(wire
+		(pts
+			(xy 125.73 104.14) (xy 113.03 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ea7dede-b9a5-49b7-8865-7cbc9c2cee15")
+	)
+	(wire
+		(pts
+			(xy 93.98 93.98) (xy 97.79 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71cc3ed9-5fab-4e86-ad2c-48e585d6a3b5")
+	)
+	(wire
+		(pts
+			(xy 116.84 20.32) (xy 138.43 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b4e368-c36f-4aee-bef9-de457e897ee5")
+	)
+	(wire
+		(pts
+			(xy 113.03 78.74) (xy 113.03 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db2952f-6d52-4fe7-95b7-e0c921d34d9f")
+	)
+	(wire
+		(pts
+			(xy 88.9 72.39) (xy 88.9 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e34dd1-0e3d-4404-aa61-5c2352729cf7")
+	)
+	(wire
+		(pts
+			(xy 96.52 72.39) (xy 88.9 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8843e957-3325-470a-84dd-8f53f64ab17b")
+	)
+	(wire
+		(pts
+			(xy 228.6 80.01) (xy 229.87 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a975aa0-5cfb-4544-b6b6-1269702a4304")
+	)
+	(wire
+		(pts
+			(xy 173.99 78.74) (xy 173.99 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be12581-8324-4f66-9653-2f3e3852ca9f")
+	)
+	(wire
+		(pts
+			(xy 116.84 35.56) (xy 138.43 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cdc6cc3-d518-406b-8404-b909f3deaf63")
+	)
+	(wire
+		(pts
+			(xy 107.95 49.53) (xy 259.08 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fa63cfa-edb8-4d03-a264-443666445a5a")
+	)
+	(wire
+		(pts
+			(xy 246.38 82.55) (xy 246.38 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6843792-ef80-443f-b238-944e2d5d76c2")
+	)
+	(wire
+		(pts
+			(xy 116.84 35.56) (xy 77.47 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a77dfcb9-8674-44d6-840f-39f31924f6fa")
+	)
+	(wire
+		(pts
+			(xy 76.2 72.39) (xy 76.2 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7b7616a-3d2b-4374-aaee-4a61f409af67")
+	)
+	(wire
+		(pts
+			(xy 160.02 63.5) (xy 156.21 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87d7f09-73f5-49d0-8163-0e49a4e9c908")
+	)
+	(wire
+		(pts
+			(xy 173.99 78.74) (xy 173.99 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b941b2cc-12b5-478f-88ca-b9a2990f5b2e")
+	)
+	(wire
+		(pts
+			(xy 69.85 71.12) (xy 73.66 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c07250d1-d440-407d-84d8-8c86a47dbbf1")
+	)
+	(wire
+		(pts
+			(xy 245.11 82.55) (xy 246.38 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbfcfc49-4236-4032-bb0b-5404d4f70c45")
+	)
+	(wire
+		(pts
+			(xy 173.99 63.5) (xy 167.64 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc3d5e21-8a67-4e4e-8e4c-9b5d6148e041")
+	)
+	(wire
+		(pts
+			(xy 88.9 100.33) (xy 88.9 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d199c173-b521-4ae6-a1af-6f98852bcc6c")
+	)
+	(wire
+		(pts
+			(xy 259.08 82.55) (xy 259.08 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d26704bf-712f-4cfa-afad-e310feea0637")
+	)
+	(wire
+		(pts
+			(xy 228.6 67.31) (xy 228.6 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da4cfde3-4665-4740-bbdb-c938e7bc2cfe")
+	)
+	(wire
+		(pts
+			(xy 182.88 78.74) (xy 187.96 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba2fd80-b00f-4560-b8f0-1b68bccde645")
+	)
+	(wire
+		(pts
+			(xy 128.27 104.14) (xy 134.62 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcdaf406-5c66-419a-9978-4d131a36b955")
+	)
+	(wire
+		(pts
+			(xy 88.9 106.68) (xy 93.98 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b93d9a-ba0a-412d-a938-ed8e61931798")
+	)
+	(wire
+		(pts
+			(xy 113.03 74.93) (xy 113.03 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7cf7a84-b9fb-4a8f-8394-7e1cde181485")
+	)
+	(wire
+		(pts
+			(xy 132.08 74.93) (xy 132.08 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98ee7e8-28db-416d-9c6f-a3e7035f6f43")
+	)
+	(wire
+		(pts
+			(xy 142.24 104.14) (xy 173.99 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede6d5f3-82f3-40c9-ba92-dc938ab2053c")
+	)
+	(wire
+		(pts
+			(xy 100.33 49.53) (xy 88.9 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2c36ba7-9cf1-4b39-baf7-24e20524bd69")
+	)
+	(wire
+		(pts
+			(xy 246.38 67.31) (xy 240.03 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7adea8f-4800-42f5-8feb-39535085445d")
+	)
+	(wire
+		(pts
+			(xy 232.41 67.31) (xy 228.6 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8cde0a7-ff29-477b-b9f9-78c3847f60cc")
+	)
+	(hierarchical_label "in"
+		(shape output)
+		(at 62.23 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22dc3a38-9edd-4cb9-a205-27435e751f1c")
+	)
+	(hierarchical_label "+15V"
+		(shape output)
+		(at 77.47 20.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e507f1b-b71b-4429-a54b-202f2d0e837c")
+	)
+	(hierarchical_label "out"
+		(shape output)
+		(at 113.03 78.74 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "669f9228-c5cd-4bc7-9e36-9a8a33ec67b2")
+	)
+	(hierarchical_label "-15V"
+		(shape output)
+		(at 77.47 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8132d591-19e3-49f1-9620-009f0995fca2")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 66.04 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "146a6111-6e75-4dd4-a329-5482dc9da662")
+		(property "Reference" "R71"
+			(at 62.23 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 62.23 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 66.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80794fd7-c2a4-4014-a8eb-50671fee18e2")
+		)
+		(pin "2"
+			(uuid "1c447aea-d9ba-4bf9-aac4-17b954c60797")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "R71")
+					(unit 1)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16b049de-d159-43a4-ac7a-df7445d91e67")
+		(property "Reference" "R72"
+			(at 91.44 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R"
+			(at 91.44 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.678 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "438b8bf3-a922-4476-89ca-0c557b466726")
+		)
+		(pin "2"
+			(uuid "02e3c0b3-308b-4cce-a3cd-50688a085546")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "R72")
+					(unit 1)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "R80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Potentiometer_Digital:MCP4461-xxxx-ST")
+		(at 203.2 27.94 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "241b6f11-0bfa-4670-8145-181f7e2297be")
+		(property "Reference" "U25"
+			(at 214.63 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP4461-xxxx-ST"
+			(at 214.63 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+			(at 206.6798 32.8676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/22267A_MCP4431.pdf"
+			(at 203.2 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 8 Bit Digital Potentiometer, I²C, Nonvolatile Memory, TSSOP-20"
+			(at 203.2 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d34eb0c-29ee-4519-b161-11656e71554e")
+		)
+		(pin "13"
+			(uuid "12337908-f564-4735-85d0-8697eea1f059")
+		)
+		(pin "11"
+			(uuid "01547fac-82e5-4f9d-9be8-225f2d7629fa")
+		)
+		(pin "8"
+			(uuid "adbca3d9-40ae-4057-aa5a-afb586d62fb0")
+		)
+		(pin "9"
+			(uuid "95524b59-5c7b-4c7d-b74e-290ba546468e")
+		)
+		(pin "12"
+			(uuid "deba47c7-c7ec-42d2-a7f6-6c67df3e8e90")
+		)
+		(pin "10"
+			(uuid "8dc86992-22af-4a36-8e42-b0970b65273e")
+		)
+		(pin "18"
+			(uuid "a7f0660b-f8c4-461d-93e6-fc9c0c8323a1")
+		)
+		(pin "19"
+			(uuid "be99b3bc-f0d3-4083-8f90-946c5659ab0b")
+		)
+		(pin "20"
+			(uuid "4145efd1-ec8f-4e13-a103-caeb0252d9bb")
+		)
+		(pin "3"
+			(uuid "1d68734a-8895-4e6a-a291-8b268a69650d")
+		)
+		(pin "2"
+			(uuid "de0fbf66-0195-4c37-ae7f-7a9eb3efb7dd")
+		)
+		(pin "15"
+			(uuid "5782ed64-5e71-4371-aa71-ad1ef9c6b43c")
+		)
+		(pin "6"
+			(uuid "34a7a2b6-b5f1-4cc1-b495-ed926802c35f")
+		)
+		(pin "4"
+			(uuid "e541a0ca-63bc-4d1a-8c1b-b6affd6861c7")
+		)
+		(pin "14"
+			(uuid "3212053a-a0fe-4a70-848c-8a36fe83051d")
+		)
+		(pin "16"
+			(uuid "ad74a71c-045b-4ae2-aecd-6f766a9b45c6")
+		)
+		(pin "5"
+			(uuid "e014ad81-15a9-43ae-b099-73b184a42e8a")
+		)
+		(pin "7"
+			(uuid "0a41887c-66ba-4856-a2ae-1f43c22e416b")
+		)
+		(pin "17"
+			(uuid "05e53d8b-963c-4cfb-bcd5-6f4f50c9b12a")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "U25")
+					(unit 5)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "U28")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 236.22 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3671eaf9-4f1c-4a76-b2c4-88e44877b897")
+		(property "Reference" "C20"
+			(at 236.22 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 236.22 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 66.3448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 236.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ecc742a2-e393-4036-8bc1-41c7fbd5e2c1")
+		)
+		(pin "1"
+			(uuid "24885c74-0edc-4410-a1b8-c0619dfef6c4")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "C20")
+					(unit 1)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 163.83 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "421a5c32-c70a-4aeb-a5e8-4f1fd07f16dd")
+		(property "Reference" "C19"
+			(at 163.83 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 163.83 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 62.5348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 163.83 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2cd6ed86-fcef-4bc6-b32d-72f64bc13aca")
+		)
+		(pin "1"
+			(uuid "a7b59c5a-3b31-4a1f-85d1-87b20d68b750")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "C19")
+					(unit 1)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Potentiometer_Digital:MCP4461-xxxx-ST")
+		(at 190.5 71.12 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43a8961d-6f72-41a1-8790-52fbd4c77069")
+		(property "Reference" "U25"
+			(at 196.85 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MCP4461-xxxx-ST"
+			(at 196.85 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+			(at 195.4276 67.6402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/22267A_MCP4431.pdf"
+			(at 190.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 8 Bit Digital Potentiometer, I²C, Nonvolatile Memory, TSSOP-20"
+			(at 190.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d34eb0c-29ee-4519-b161-11656e715551")
+		)
+		(pin "13"
+			(uuid "12337908-f564-4735-85d0-8697eea1f05c")
+		)
+		(pin "11"
+			(uuid "01547fac-82e5-4f9d-9be8-225f2d7629fd")
+		)
+		(pin "8"
+			(uuid "50f7aaec-5a4b-4038-9393-356f62344c7f")
+		)
+		(pin "9"
+			(uuid "a64d0999-c9d0-4dfc-99d2-ee09770be0a6")
+		)
+		(pin "12"
+			(uuid "deba47c7-c7ec-42d2-a7f6-6c67df3e8e93")
+		)
+		(pin "10"
+			(uuid "5afa57ae-9a1e-4290-a035-0e16587625d8")
+		)
+		(pin "18"
+			(uuid "a7f0660b-f8c4-461d-93e6-fc9c0c8323a4")
+		)
+		(pin "19"
+			(uuid "be99b3bc-f0d3-4083-8f90-946c5659ab0e")
+		)
+		(pin "20"
+			(uuid "4145efd1-ec8f-4e13-a103-caeb0252d9be")
+		)
+		(pin "3"
+			(uuid "1d68734a-8895-4e6a-a291-8b268a696510")
+		)
+		(pin "2"
+			(uuid "de0fbf66-0195-4c37-ae7f-7a9eb3efb7e0")
+		)
+		(pin "15"
+			(uuid "17bfeabd-2ec8-47fc-8ae0-6efc804c686f")
+		)
+		(pin "6"
+			(uuid "7466eeff-7746-491e-b234-fb435c8ebc6f")
+		)
+		(pin "4"
+			(uuid "cd975756-9893-465f-8314-9a5fe05f3f3b")
+		)
+		(pin "14"
+			(uuid "4bc8eb84-73ed-4928-aafa-477672c3843d")
+		)
+		(pin "16"
+			(uuid "99ab4d0a-56f8-4875-b3f5-08438c328e3c")
+		)
+		(pin "5"
+			(uuid "2ed68c0d-0254-49d5-9618-52c90c2ca20b")
+		)
+		(pin "7"
+			(uuid "9e95417f-ee83-48d2-819b-d79d9a9e29b2")
+		)
+		(pin "17"
+			(uuid "08d4ef15-3969-4dc0-844d-dbe0791bdcb9")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "U25")
+					(unit 2)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "U28")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4772ccc4-5257-4fb5-b5d6-4eb1958cd6ab")
+		(property "Reference" "#PWR044"
+			(at 115.57 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d29e4801-01b3-4f19-9e70-b9cc4999cd70")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 138.43 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4892608e-8643-435c-b45f-3a581f04e9ea")
+		(property "Reference" "R77"
+			(at 138.43 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 138.43 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 138.43 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dfc367c-1ce4-4b52-8135-224ab05e8f13")
+		)
+		(pin "2"
+			(uuid "73b28cfd-d8ee-4b50-a3dd-93b026edd778")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "R77")
+					(unit 1)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "R85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "530cba70-3ba4-4506-ad3f-cb7d26c68504")
+		(property "Reference" "#PWR045"
+			(at 151.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5971a288-a30e-4f39-97aa-dd4b3d56ec2c")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 104.14 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53f5d70b-94d8-4cf1-9cd1-e68e890c6429")
+		(property "Reference" "R74"
+			(at 104.14 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 104.14 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 51.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a7fc9e4-15b9-4a7c-bae2-6103220f9c3c")
+		)
+		(pin "2"
+			(uuid "e314b47b-79db-42f0-9525-2e94d664ebe5")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "R74")
+					(unit 1)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "R82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59b87e87-8421-48e3-b2e6-b08cecc58c59")
+		(property "Reference" "R76"
+			(at 119.38 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 119.38 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "473a3f23-5d3b-4dde-bf48-ff48f578e93e")
+		)
+		(pin "2"
+			(uuid "666f3912-074e-46f9-87d8-974f9b5b0844")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "R76")
+					(unit 1)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "R84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1612AxD")
+		(at 101.6 106.68 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e26a844-0540-41f2-a802-854135cea4a8")
+		(property "Reference" "U26"
+			(at 101.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1612AxD"
+			(at 101.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_5.3x6.2mm_P1.27mm"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "f15fbf45-804d-46a3-9273-73bbd82174d9")
+		)
+		(pin "3"
+			(uuid "c606d838-c499-4cb6-aadc-da8b44ebcad0")
+		)
+		(pin "5"
+			(uuid "a69aff5d-1fea-4c93-8946-199232c7ecd7")
+		)
+		(pin "4"
+			(uuid "daee7844-6162-4d8e-9d94-6070cb9c54f8")
+		)
+		(pin "7"
+			(uuid "e0c491ef-89e3-4de5-8870-f4cfd3569b78")
+		)
+		(pin "8"
+			(uuid "bbab2afa-a42e-4e25-ac49-11f11a8380f9")
+		)
+		(pin "2"
+			(uuid "63a0a232-168a-494a-bd62-a13dedf8a072")
+		)
+		(pin "1"
+			(uuid "a02e1906-4bd3-4477-96a6-7e3360eabcd3")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "U26")
+					(unit 2)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "U29")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6360d576-4bf3-4985-babf-7598f86ab09e")
+		(property "Reference" "#PWR046"
+			(at 223.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d4cf206-910d-496d-81c2-c886815019b2")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1612AxD")
+		(at 237.49 82.55 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67dc2fa7-cf1a-4472-a5eb-fb19658d3cf4")
+		(property "Reference" "U26"
+			(at 237.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1612AxD"
+			(at 237.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_5.3x6.2mm_P1.27mm"
+			(at 237.49 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
+			(at 237.49 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
+			(at 237.49 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "a76097e7-11d0-4d9d-a830-8e6fe2022190")
+		)
+		(pin "3"
+			(uuid "3f760d8d-0eb5-4c53-b954-5d35ef3518a8")
+		)
+		(pin "5"
+			(uuid "4533231c-3b08-4476-ad13-d3b45f08affb")
+		)
+		(pin "4"
+			(uuid "daee7844-6162-4d8e-9d94-6070cb9c54f7")
+		)
+		(pin "7"
+			(uuid "9cedc7b2-9a37-4abe-bb29-a75faef6f8c8")
+		)
+		(pin "8"
+			(uuid "bbab2afa-a42e-4e25-ac49-11f11a8380f8")
+		)
+		(pin "2"
+			(uuid "2c829c80-0e5e-4fa9-926d-dba6e436c45e")
+		)
+		(pin "1"
+			(uuid "d1275880-0a04-4f0e-a48c-66f942b64632")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "U26")
+					(unit 1)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "U29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 104.14 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69c64d92-c610-49e4-b366-8a04e9c767a3")
+		(property "Reference" "R75"
+			(at 104.14 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 104.14 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 104.14 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecbc09e4-eea2-4654-9f33-21eb4f96f8fc")
+		)
+		(pin "2"
+			(uuid "c64497f8-ce03-4c7e-93df-93fa82b539a9")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "R75")
+					(unit 1)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Potentiometer_Digital:MCP4461-xxxx-ST")
+		(at 76.2 63.5 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a451969-6eb7-4da9-8aa9-f8b8f6dff16a")
+		(property "Reference" "U25"
+			(at 68.326 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MCP4461-xxxx-ST"
+			(at 68.326 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+			(at 81.1276 60.0202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/22267A_MCP4431.pdf"
+			(at 76.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 8 Bit Digital Potentiometer, I²C, Nonvolatile Memory, TSSOP-20"
+			(at 76.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cef20fc7-a973-4114-b186-a0222f3607b8")
+		)
+		(pin "13"
+			(uuid "12337908-f564-4735-85d0-8697eea1f058")
+		)
+		(pin "11"
+			(uuid "01547fac-82e5-4f9d-9be8-225f2d7629f9")
+		)
+		(pin "8"
+			(uuid "adbca3d9-40ae-4057-aa5a-afb586d62faf")
+		)
+		(pin "9"
+			(uuid "95524b59-5c7b-4c7d-b74e-290ba546468d")
+		)
+		(pin "12"
+			(uuid "deba47c7-c7ec-42d2-a7f6-6c67df3e8e8f")
+		)
+		(pin "10"
+			(uuid "8dc86992-22af-4a36-8e42-b0970b65273d")
+		)
+		(pin "18"
+			(uuid "a7f0660b-f8c4-461d-93e6-fc9c0c8323a0")
+		)
+		(pin "19"
+			(uuid "be99b3bc-f0d3-4083-8f90-946c5659ab0a")
+		)
+		(pin "20"
+			(uuid "4145efd1-ec8f-4e13-a103-caeb0252d9ba")
+		)
+		(pin "3"
+			(uuid "3b03bf8b-9c0f-41e1-9dd9-5eff3949af32")
+		)
+		(pin "2"
+			(uuid "bb66447f-41a9-4d12-8de0-8278dde68433")
+		)
+		(pin "15"
+			(uuid "17bfeabd-2ec8-47fc-8ae0-6efc804c686b")
+		)
+		(pin "6"
+			(uuid "7466eeff-7746-491e-b234-fb435c8ebc6b")
+		)
+		(pin "4"
+			(uuid "cd975756-9893-465f-8314-9a5fe05f3f37")
+		)
+		(pin "14"
+			(uuid "4bc8eb84-73ed-4928-aafa-477672c38439")
+		)
+		(pin "16"
+			(uuid "99ab4d0a-56f8-4875-b3f5-08438c328e38")
+		)
+		(pin "5"
+			(uuid "2ed68c0d-0254-49d5-9618-52c90c2ca207")
+		)
+		(pin "7"
+			(uuid "9e95417f-ee83-48d2-819b-d79d9a9e29ae")
+		)
+		(pin "17"
+			(uuid "08d4ef15-3969-4dc0-844d-dbe0791bdcb5")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "U25")
+					(unit 4)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "U28")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1612AxD")
+		(at 135.89 27.94 180)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c01f75e-5e2a-4b3f-b308-c87e7df595c3")
+		(property "Reference" "U26"
+			(at 139.7 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "OPA1612AxD"
+			(at 139.7 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_5.3x6.2mm_P1.27mm"
+			(at 135.89 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
+			(at 135.89 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
+			(at 135.89 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "a76097e7-11d0-4d9d-a830-8e6fe2022192")
+		)
+		(pin "3"
+			(uuid "c606d838-c499-4cb6-aadc-da8b44ebcad1")
+		)
+		(pin "5"
+			(uuid "4533231c-3b08-4476-ad13-d3b45f08affd")
+		)
+		(pin "4"
+			(uuid "5b12dad4-78b8-45aa-81c1-a023a13cc4a8")
+		)
+		(pin "7"
+			(uuid "9cedc7b2-9a37-4abe-bb29-a75faef6f8ca")
+		)
+		(pin "8"
+			(uuid "b4dbecd7-696f-4804-9968-4f289e28600f")
+		)
+		(pin "2"
+			(uuid "63a0a232-168a-494a-bd62-a13dedf8a073")
+		)
+		(pin "1"
+			(uuid "a02e1906-4bd3-4477-96a6-7e3360eabcd4")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "U26")
+					(unit 3)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "U29")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e0379ee-3db7-4f5d-84f5-9e48319a64e9")
+		(property "Reference" "#PWR043"
+			(at 91.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "663d4a45-fea7-49c7-a6e9-6429d16aa4c1")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 179.07 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b84f8ab-bd44-4b6a-8dbc-d5c7f7714816")
+		(property "Reference" "R78"
+			(at 179.07 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 179.07 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 80.518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d38fc31-6cea-4991-b4be-326cd090265f")
+		)
+		(pin "2"
+			(uuid "889cf2bb-1b8b-48e2-9f5c-dccd5b21e15e")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "R78")
+					(unit 1)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "R86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1612AxD")
+		(at 119.38 27.94 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ddb026a-5c10-4639-9c59-77f96a8659d7")
+		(property "Reference" "U27"
+			(at 118.11 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA1612AxD"
+			(at 118.11 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_5.3x6.2mm_P1.27mm"
+			(at 119.38 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
+			(at 119.38 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
+			(at 119.38 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "a76097e7-11d0-4d9d-a830-8e6fe2022193")
+		)
+		(pin "3"
+			(uuid "c606d838-c499-4cb6-aadc-da8b44ebcad2")
+		)
+		(pin "5"
+			(uuid "4533231c-3b08-4476-ad13-d3b45f08affe")
+		)
+		(pin "4"
+			(uuid "9654ea9a-9817-46d6-b617-5822a061422b")
+		)
+		(pin "7"
+			(uuid "9cedc7b2-9a37-4abe-bb29-a75faef6f8cb")
+		)
+		(pin "8"
+			(uuid "e102a440-214f-4889-975a-fb21b24e70d0")
+		)
+		(pin "2"
+			(uuid "63a0a232-168a-494a-bd62-a13dedf8a074")
+		)
+		(pin "1"
+			(uuid "a02e1906-4bd3-4477-96a6-7e3360eabcd5")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "U27")
+					(unit 3)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "U30")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Potentiometer_Digital:MCP4461-xxxx-ST")
+		(at 132.08 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a558e5d1-7a5f-447c-8c51-5e905579fcf5")
+		(property "Reference" "U25"
+			(at 126.746 58.166 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MCP4461-xxxx-ST"
+			(at 126.746 60.706 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+			(at 137.0076 63.8302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/22267A_MCP4431.pdf"
+			(at 132.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 8 Bit Digital Potentiometer, I²C, Nonvolatile Memory, TSSOP-20"
+			(at 132.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d34eb0c-29ee-4519-b161-11656e715550")
+		)
+		(pin "13"
+			(uuid "40711e80-80a4-4643-bb25-e2bc41102043")
+		)
+		(pin "11"
+			(uuid "e6fde4e3-6402-425d-9f9e-9ee3f3e4ec32")
+		)
+		(pin "8"
+			(uuid "adbca3d9-40ae-4057-aa5a-afb586d62fb2")
+		)
+		(pin "9"
+			(uuid "95524b59-5c7b-4c7d-b74e-290ba5464690")
+		)
+		(pin "12"
+			(uuid "31e0fb12-6d58-4d63-b131-e75c5842e3e5")
+		)
+		(pin "10"
+			(uuid "8dc86992-22af-4a36-8e42-b0970b652740")
+		)
+		(pin "18"
+			(uuid "a7f0660b-f8c4-461d-93e6-fc9c0c8323a3")
+		)
+		(pin "19"
+			(uuid "be99b3bc-f0d3-4083-8f90-946c5659ab0d")
+		)
+		(pin "20"
+			(uuid "4145efd1-ec8f-4e13-a103-caeb0252d9bd")
+		)
+		(pin "3"
+			(uuid "1d68734a-8895-4e6a-a291-8b268a69650f")
+		)
+		(pin "2"
+			(uuid "de0fbf66-0195-4c37-ae7f-7a9eb3efb7df")
+		)
+		(pin "15"
+			(uuid "17bfeabd-2ec8-47fc-8ae0-6efc804c686e")
+		)
+		(pin "6"
+			(uuid "7466eeff-7746-491e-b234-fb435c8ebc6e")
+		)
+		(pin "4"
+			(uuid "cd975756-9893-465f-8314-9a5fe05f3f3a")
+		)
+		(pin "14"
+			(uuid "4bc8eb84-73ed-4928-aafa-477672c3843c")
+		)
+		(pin "16"
+			(uuid "99ab4d0a-56f8-4875-b3f5-08438c328e3b")
+		)
+		(pin "5"
+			(uuid "2ed68c0d-0254-49d5-9618-52c90c2ca20a")
+		)
+		(pin "7"
+			(uuid "9e95417f-ee83-48d2-819b-d79d9a9e29b1")
+		)
+		(pin "17"
+			(uuid "08d4ef15-3969-4dc0-844d-dbe0791bdcb8")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "U25")
+					(unit 1)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "U28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1612AxD")
+		(at 105.41 74.93 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a648a2ea-a894-4e05-bd9b-b1016683392c")
+		(property "Reference" "U27"
+			(at 105.41 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1612AxD"
+			(at 105.41 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_5.3x6.2mm_P1.27mm"
+			(at 105.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
+			(at 105.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
+			(at 105.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "a76097e7-11d0-4d9d-a830-8e6fe202218f")
+		)
+		(pin "3"
+			(uuid "027a96ea-7ceb-42b7-9a24-3837104aa72e")
+		)
+		(pin "5"
+			(uuid "4533231c-3b08-4476-ad13-d3b45f08affa")
+		)
+		(pin "4"
+			(uuid "daee7844-6162-4d8e-9d94-6070cb9c54f6")
+		)
+		(pin "7"
+			(uuid "9cedc7b2-9a37-4abe-bb29-a75faef6f8c7")
+		)
+		(pin "8"
+			(uuid "bbab2afa-a42e-4e25-ac49-11f11a8380f7")
+		)
+		(pin "2"
+			(uuid "2ccd6145-2018-489b-a5d7-c97fe696b236")
+		)
+		(pin "1"
+			(uuid "138ec094-daca-4186-b622-97e02e17e049")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "U27")
+					(unit 1)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "U30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Potentiometer_Digital:MCP4461-xxxx-ST")
+		(at 128.27 95.25 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf6f6dd9-aa6b-4b58-b645-f5ab43513fa6")
+		(property "Reference" "U25"
+			(at 134.62 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MCP4461-xxxx-ST"
+			(at 134.62 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+			(at 133.1976 91.7702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/22267A_MCP4431.pdf"
+			(at 128.27 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 8 Bit Digital Potentiometer, I²C, Nonvolatile Memory, TSSOP-20"
+			(at 128.27 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d34eb0c-29ee-4519-b161-11656e71554f")
+		)
+		(pin "13"
+			(uuid "12337908-f564-4735-85d0-8697eea1f05a")
+		)
+		(pin "11"
+			(uuid "01547fac-82e5-4f9d-9be8-225f2d7629fb")
+		)
+		(pin "8"
+			(uuid "adbca3d9-40ae-4057-aa5a-afb586d62fb1")
+		)
+		(pin "9"
+			(uuid "95524b59-5c7b-4c7d-b74e-290ba546468f")
+		)
+		(pin "12"
+			(uuid "deba47c7-c7ec-42d2-a7f6-6c67df3e8e91")
+		)
+		(pin "10"
+			(uuid "8dc86992-22af-4a36-8e42-b0970b65273f")
+		)
+		(pin "18"
+			(uuid "1f65d85f-daef-49bc-8cce-c0b7b05e2ad4")
+		)
+		(pin "19"
+			(uuid "1742b51f-7f9b-45b1-9b2f-e949749e3586")
+		)
+		(pin "20"
+			(uuid "ef72c11f-3bb7-4b2a-9c81-df9fb7615d21")
+		)
+		(pin "3"
+			(uuid "1d68734a-8895-4e6a-a291-8b268a69650e")
+		)
+		(pin "2"
+			(uuid "de0fbf66-0195-4c37-ae7f-7a9eb3efb7de")
+		)
+		(pin "15"
+			(uuid "17bfeabd-2ec8-47fc-8ae0-6efc804c686d")
+		)
+		(pin "6"
+			(uuid "7466eeff-7746-491e-b234-fb435c8ebc6d")
+		)
+		(pin "4"
+			(uuid "cd975756-9893-465f-8314-9a5fe05f3f39")
+		)
+		(pin "14"
+			(uuid "4bc8eb84-73ed-4928-aafa-477672c3843b")
+		)
+		(pin "16"
+			(uuid "99ab4d0a-56f8-4875-b3f5-08438c328e3a")
+		)
+		(pin "5"
+			(uuid "2ed68c0d-0254-49d5-9618-52c90c2ca209")
+		)
+		(pin "7"
+			(uuid "9e95417f-ee83-48d2-819b-d79d9a9e29b0")
+		)
+		(pin "17"
+			(uuid "08d4ef15-3969-4dc0-844d-dbe0791bdcb7")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "U25")
+					(unit 3)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "U28")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1612AxD")
+		(at 165.1 78.74 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d320d3e2-5c94-48eb-9705-be201dc339b2")
+		(property "Reference" "U27"
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1612AxD"
+			(at 165.1 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_5.3x6.2mm_P1.27mm"
+			(at 165.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
+			(at 165.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
+			(at 165.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "b85ec852-bdbe-4ce9-98e0-12c03de7181b")
+		)
+		(pin "3"
+			(uuid "c606d838-c499-4cb6-aadc-da8b44ebcad3")
+		)
+		(pin "5"
+			(uuid "7244ab2e-f343-4da5-b05c-375f839293dc")
+		)
+		(pin "4"
+			(uuid "daee7844-6162-4d8e-9d94-6070cb9c54fb")
+		)
+		(pin "7"
+			(uuid "cdc7296b-496e-4eea-879f-4eafbc833dc0")
+		)
+		(pin "8"
+			(uuid "bbab2afa-a42e-4e25-ac49-11f11a8380fc")
+		)
+		(pin "2"
+			(uuid "63a0a232-168a-494a-bd62-a13dedf8a075")
+		)
+		(pin "1"
+			(uuid "a02e1906-4bd3-4477-96a6-7e3360eabcd6")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "U27")
+					(unit 2)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "U30")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e86ab76f-58e4-4d99-8400-a3d819e85656")
+		(property "Reference" "R73"
+			(at 101.6 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 101.6 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d8b1a12-f218-4511-a995-801812cc4d7b")
+		)
+		(pin "2"
+			(uuid "a6c9e901-c04d-4d56-ad70-0aa0dc01d4ac")
+		)
+		(instances
+			(project "KICAD PEQ"
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/21ffa2c7-8d37-4902-94d7-d56b0a14bd1f/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "R73")
+					(unit 1)
+				)
+				(path "/55e2a342-beba-4617-867f-b1714faef12d/b4bccff9-841d-45c7-bd46-feb380160ab1/bf263398-f5fb-4092-8011-2303d7482c26"
+					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
