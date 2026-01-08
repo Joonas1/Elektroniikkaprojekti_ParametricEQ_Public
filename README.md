@@ -12,4 +12,4 @@ Paikallinen käyttö: Kun ESP32 on yhdistetty verkkoon, konfigurointisivu on ede
 
 Firebase-yhteys: Luo oma Firebase-projekti (Realtime Database). Jotta etäohjaus toimii, syötä sama Firebase URL ja Secret sekä ESP32-laitteelle että etäohjaussivustolle.
 
-Etäohjaus: Projektin web-kansiosta löytyvän sivuston voi hostata itse. Muista asettaa Firebase-tiedot sivuston asetuksiin."
+Etäohjaus: Projektin web-kansiosta löytyvän sivuston voi hostata itse. Muista asettaa Firebase-tiedot sivuston asetuksiin.
