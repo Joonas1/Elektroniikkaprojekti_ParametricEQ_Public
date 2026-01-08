@@ -1,16 +1,3 @@
-ESP32 käynnistyy ensimmäisen kerran Access point tilassa, SSID: ESP32_Config, Password: 12345678
-
-Yhdistämällä 192.168.4.1 voi asettaa Wifi SSID, salasana, firebase URL, firebase secret
-
-
-Sama sivu on nyt saatavilla yhdistetyn verkon sisältä ESP32 ip-osoitteessa
-
-Sinun pitää tehdä firebase projekti johon nettisivu ja esp32 kirjoittaa ja lukee tietoa
-
-Nettisivu löytyy projektissa kansiosta "web" jonka voi hostata haluamallaan tavalla, kunhan se saa yhteyden firebaseen
-
-Jotta ESP32 voi ohjata etänä pitää nettisivulla asetuksista laittaa firebase url ja secret oikein
-
 Ensimmäinen käynnistys: ESP32 käynnistyy oletuksena Access Point -tilassa (tukiasema).
 
     SSID: ESP32_Config
